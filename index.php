@@ -11,13 +11,20 @@
   <script src="progress_bar.js"></script>
 </head>
 <body>
-  <h1>Progress Bar Test</h1>
+  <h1>Progress Bar Example</h1>
+  <p><a href="https://github.com:middlebury/progress-bar">GitHub repo</a></p>
   <p>Click the button.</p>
   <p><button id="mybutton">Start the action</button></p>
   <div id="progressbar"></div>
 
   <h2>Client-side</h2>
   <p>AJAX call incrementally displaying the contents of the response in a div.</p>
+  <p>Documentation:</p>
+  <ul>
+    <li><a href="http://api.jquery.com/jquery.ajax/">jquery.ajax</a></li>
+    <li><a href="http://api.jqueryui.com/progressbar/">jquery-ui progressbar widget</a>
+    <li><a href="https://stackoverflow.com/questions/22502943/jquery-ajax-progress-via-xhr">JQuery ajax progress via xhr</a></li>
+  </ul>
   <pre><?php print htmlentities(file_get_contents('progress_bar.js')); ?></pre>
 
   <h2>Server-side</h2>
