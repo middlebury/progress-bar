@@ -6,6 +6,7 @@ while (ob_get_level()) {
   ob_end_flush();
 }
 flush();
+// The content-length above and the number of characters printed should be the same.
 for ($i=0; $i<100; $i++) {
   print "*";
   flush();
