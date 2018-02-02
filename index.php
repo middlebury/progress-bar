@@ -12,7 +12,7 @@
 </head>
 <body>
   <h1>Progress Bar Example</h1>
-  <p><a href="https://github.com:middlebury/progress-bar">GitHub repo</a></p>
+  <p style="float: right;"><a href="https://github.com:middlebury/progress-bar">GitHub repo</a></p>
   <p>Click the button.</p>
   <p><button id="mybutton">Start the action</button></p>
   <div id="progressbar"></div>

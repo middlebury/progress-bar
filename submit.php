@@ -10,5 +10,5 @@ flush();
 for ($i=0; $i<100; $i++) {
   print "*";
   flush();
-  usleep(100000);
+  usleep(rand(0,300000));
 }
